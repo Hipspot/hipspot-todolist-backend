@@ -9,7 +9,7 @@ public class Community {
     @OneToMany(mappedBy = "community")
     private List<CommunityComment> comments;
 
-    @Id @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id @GeneratedValue(strategy = GenerationType.AUTO) // 기본키인지 확인
     private Long id;
     @Column(nullable = false)
     private Long creatorId;

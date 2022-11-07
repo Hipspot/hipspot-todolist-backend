@@ -1,6 +1,8 @@
 package org.ec.example;
 
 import javax.persistence.*;
+//Un머시기 classes 로그 지우는 방법 찾음
+//실행 결과 로그와 테이블을 확인해보자!
 
 @Entity
 public class CommunityComment {
